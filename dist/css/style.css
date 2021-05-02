@@ -1,0 +1,31 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+ body {
+   background-color: black;
+ }
+h1 {
+  font-size:2em;
+  color:white;
+  text-align:center;
+}
+#proj {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div {
+  background:lightgray;
+  text-align: center;
+  color:black;
+}
